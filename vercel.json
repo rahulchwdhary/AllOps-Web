@@ -12,4 +12,9 @@
         "dest": "capstone/wsgi.py"
       }
     ]
+   "functions": {
+     "vercel-django-server": {
+       "runtime": "python3.8"
+    }
+  }
 }
