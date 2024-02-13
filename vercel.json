@@ -2,7 +2,8 @@
     "builds": [
       {
         "src": "capstone/wsgi.py",
-        "use": "@vercel/python"
+        "use": "@vercel/python",
+        "config": {"runtiem": "python3.9"}
       }
     ],
     "routes": [
